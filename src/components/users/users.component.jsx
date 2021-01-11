@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './users.styles.css'
 
 
@@ -11,8 +12,10 @@ const UserPage =() =>{
         
       </div>
       <div className="form-group has-search">
-        <span className="fa fa-search form-control-feedback"></span>
-        <input type="text" className="form-control col-md-4" placeholder="Find a user"/>
+        <span className="form-control-feedback">
+          <FontAwesomeIcon icon="search"/>
+          </span>
+        <input type="text" className="form-control col-md-4 text-white" placeholder="Find a user"/>
       </div>
 
   </div>
