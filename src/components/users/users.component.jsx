@@ -7,16 +7,18 @@ const UserPage =() =>{
   return(
   <div className="container">
       <div className="text-white header">
-        <h1 className=''>Hello, <strong>Emerald</strong></h1>
+        <p className='mt-3 heading-text'>Hello, <strong className="">Emerald</strong></p>
         <p>Welcome to your dashboard. Kindly sort through the user base.</p>
         
       </div>
       <div className="form-group has-search">
-        <span className="form-control-feedback">
+        <span className="form-control-feedback pt-2">
           <FontAwesomeIcon icon="search"/>
           </span>
-        <input type="text" className="form-control col-md-4 text-white" placeholder="Find a user"/>
+        <input type="text" className="form-control col-md-5 text-white" placeholder="Find a user" disabled/>
       </div>
+
+      
 
   </div>
   )
