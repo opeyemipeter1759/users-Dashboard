@@ -3,8 +3,13 @@
 }
 .heading-text {
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 35px;
 }
+.emerald {
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .has-search .form-control {
   padding-left: 2.375rem;
   border-radius: 15px 15px 15px 15px !important;
