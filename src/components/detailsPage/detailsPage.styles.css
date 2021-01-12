@@ -1,0 +1,9 @@
+.detail-main {
+  width: 52vw;
+  height: 94vh;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 15px;
+  background-color: #e2dede;
+  font-family: "Quicksand", "Poppins";
+}

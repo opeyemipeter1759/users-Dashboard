@@ -2,9 +2,11 @@ import React from 'react';
 import './detailsPage.styles.css';
 
 const DetailsPage = () => {
-  return (
-
-  )
+ return (
+   <div className="detail-main">
+     
+   </div>
+ )
 }
 
 export default DetailsPage;
