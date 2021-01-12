@@ -26,21 +26,24 @@ const UserPage =() =>{
         <h5 className="text-white pt-5 pb-5 mt-3">
           Show Users
         </h5>
-        <div className="row">
+        <div className="row text-white">
         <div className="col-4-md mr-4">
           <a href="#">
          <img src={allUser} alt="" />
           </a>
+          <p>All users</p>
         </div>
         <div className="col-4-md mr-4">
           <a href="#">
          <img src={maleUser} alt="" />
           </a>
+          <p>Male users</p>
         </div>
-        <div className="col-4-md pb-5">
+        <div className="col-4-md pb-5 female">
           <a href="#">
-         <img src={femaleUser} className="mb-5" alt="" />
+         <img src={femaleUser} className="" alt="" />
           </a>
+          <p>Female users</p>
         </div>
         </div>
         
