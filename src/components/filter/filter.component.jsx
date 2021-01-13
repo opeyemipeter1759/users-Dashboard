@@ -9,23 +9,31 @@ function FilterComponent() {
       <p className="">Filter by</p>
      <div className="row">
       <div className="form-group has-search col-md-3">
-        <span className="form-control-feedback">
+        <span className="form-control-feedback1">
           <FontAwesomeIcon icon="search"/>
           </span>
         <input type="text" className="form-control1  text-dark" placeholder="Find a user" disabled/>
         </div>
 
          <div className="form-group has-search ml-5 pl-3 col-md-3">
-        <span className="form-control-feedback">
+        {/* <span className="form-control-feedback">
           <FontAwesomeIcon icon="caret-down"/>
           </span>
-        <input type="text" className="form-control1 col-md-8 text-dark" placeholder="Country" disabled/>
+        <input type="text" className="form-control1 col-md-8 text-dark" placeholder="Country" disabled/> */}
+  <div class="dropdown text-dark">
+  <button class="btn btn-secondary dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Country
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">France</a>
+    <a class="dropdown-item" href="#"> Niger</a>
+    <a class="dropdown-item" href="#">Nigeria</a>
+  </div>
+</div>
+
     </div>
-    <div className="col-md-3">
-      <span className="form-control-feedback">
-          <FontAwesomeIcon icon="toggle-on"/>
-          </span>
-          <p>Show country</p>
+    <div className="col-md-3 mt-2 mr-1 row">
+      <i className=" col fa fa-2x fa-toggle-on toggle"></i> <span className="col show-country">Show Country</span> 
     </div>
      </div>
     </div>

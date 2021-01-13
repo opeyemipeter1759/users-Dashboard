@@ -14,7 +14,7 @@ class DetailsPage extends Component  {
   }
   
   componentDidMount(){
-    axios.get('https://randomuser.me/api/?results=20')
+    axios.get('https://randomuser.me/api/?results=3')
     .then(res => {
       const data = res.data.results
       console.log(data)

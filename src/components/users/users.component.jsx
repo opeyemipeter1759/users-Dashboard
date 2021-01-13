@@ -17,9 +17,10 @@ const UserPage =() =>{
       </div>
       <div className="form-group has-search">
         <span className="form-control-feedback pt-2">
-          <FontAwesomeIcon icon="search"/>
+          {/* <FontAwesomeIcon icon="search"/> */}
+        <i className="fas fa-search search"></i>
           </span>
-        <input type="text" className="form-control col-md-5 text-white" placeholder="Find a user" disabled/>
+        <input type="text" className="form-control col-md-10 text-white" placeholder="Find a user" disabled/>
       </div>
 
       <div className="show-users">

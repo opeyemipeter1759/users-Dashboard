@@ -6,7 +6,7 @@
   font-size: 35px;
 }
 .emerald {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -28,4 +28,7 @@
   text-align: center;
   pointer-events: none;
   color: #fff;
+}
+.search {
+  color: whitesmoke;
 }
