@@ -20,14 +20,14 @@ function FilterComponent() {
           <FontAwesomeIcon icon="caret-down"/>
           </span>
         <input type="text" className="form-control1 col-md-8 text-dark" placeholder="Country" disabled/> */}
-  <div class="dropdown text-dark">
-  <button class="btn btn-secondary dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <div className="dropdown text-dark">
+  <button className="btn btn-secondary dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Country
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">France</a>
-    <a class="dropdown-item" href="#"> Niger</a>
-    <a class="dropdown-item" href="#">Nigeria</a>
+  <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a className="dropdown-item" href="#">France</a>
+    <a className="dropdown-item" href="#"> Niger</a>
+    <a className="dropdown-item" href="#">Nigeria</a>
   </div>
 </div>
 

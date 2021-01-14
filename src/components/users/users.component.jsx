@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import allUser from '../../assests/allUser.png';
 import femaleUser from '../../assests/femaleUser.png';
 import maleUser from '../../assests/maleUser.png';
+import {Link} from 'react-router-dom'
 
 import './users.styles.css'
 
@@ -29,21 +30,21 @@ const UserPage =() =>{
         </h5>
         <div className="row text-white">
         <div className="col-4-md mr-4">
-          <a href="#">
+          <Link to='/'>
          <img src={allUser} alt="" />
-          </a>
+          </Link>
           <p>All users</p>
         </div>
         <div className="col-4-md mr-4">
-          <a href="#">
+          <Link to='/male'>
          <img src={maleUser} alt="" />
-          </a>
+          </Link>
           <p>Male users</p>
         </div>
         <div className="col-4-md pb-5 female">
-          <a href="#">
+          <Link to='/female'>
          <img src={femaleUser} className="" alt="" />
-          </a>
+          </Link>
           <p>Female users</p>
         </div>
         </div>
