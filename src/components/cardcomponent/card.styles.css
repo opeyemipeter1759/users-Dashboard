@@ -1,12 +1,31 @@
 .img-thumbnail {
-  border-radius: 50% !important;
+  border-radius: 55% !important;
+  height: auto;
   margin-left: 30px;
   border-color: rgb(117, 214, 209);
   border-width: 5px;
 }
 .card {
   height: 130px !important;
+  width: 38vw;
+  align-self: center;
+  margin: auto;
 }
+
+/* @media screen and (min-width: 480px) {
+  .card {
+    max-width: 38vw;
+  }
+}
+@media screen and (max-width: 789px) {
+  .card {
+    max-width: 38vw;
+  }
+  .card-body {
+    max-width: 38vw;
+    min-width: 38vw;
+  }
+} */
 .address {
   /* padding-bottom: 400px; */
   font-size: 18px;

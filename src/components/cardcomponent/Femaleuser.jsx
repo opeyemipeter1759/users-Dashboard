@@ -1,6 +1,7 @@
 import React from 'react'
 import {Card} from 'react-bootstrap';
 import './card.styles.css'
+import FilterComponent from '../filter/filter.component'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios'
 
@@ -26,6 +27,9 @@ import axios from 'axios'
   render(){
   return (
     <>
+    <p>Female Users</p>
+    <FilterComponent/>
+
     {
       this.state.data.map(item => (
 

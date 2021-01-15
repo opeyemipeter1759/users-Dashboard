@@ -6,16 +6,15 @@ class SingleUser extends Component {
     super(props)
   
     this.state = {
-       user: {}
+       data: []
     }
   }
   
   
   componentDidMount(){
-    axios.get(`https://randomuser.me/api${window.location.pathname}`).then(res => {
-      console.log(res)
+    axios.get(`https://randomuser.me/api/?seed=${this.props.match.params.uuid}`).then(res => {
       this.setState({
-        user: res.data.results
+        data: res.data.results
       })
     }).catch(error => {
       console.log(error)
@@ -24,7 +23,7 @@ class SingleUser extends Component {
   render() {
     return (
       <div>
-        {this.state.user.gender} - Gender
+          - Gender
       </div>
     );
   }

@@ -3,5 +3,5 @@ body {
   background-color: #262a41;
   font-family: "Quicksand" "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
-  overflow: hidden;
+  overflow: auto;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Card} from 'react-bootstrap';
 import './card.styles.css'
+import FilterComponent from '../filter/filter.component';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios'
 import {Link} from 'react-router-dom'
@@ -16,7 +17,7 @@ import {Link} from 'react-router-dom'
   }
 
   componentDidMount(){
-    axios.get("https://randomuser.me/api/?results=4").then(res => {
+    axios.get("https://randomuser.me/api/?results=3").then(res => {
       this.setState({
         data: res.data.results
       })
@@ -26,10 +27,20 @@ import {Link} from 'react-router-dom'
       })
   }
   
+// componentDidMount(){
+//   axios({
+//     method:"GET",
+//    url:"https://randomuser.me/api/?results=3"}).then((res)=>{
+// console.log("FROM THE FETCH METHOD",res.data.results.email)
+//    })
+// }
 
   render(){
   return (
-    <div className="overflow-auto">
+    <div className="">
+      <p>All Users</p>
+      <FilterComponent/>
+
     {
       this.state.data.map(item => (
 

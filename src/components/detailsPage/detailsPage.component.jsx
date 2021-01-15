@@ -8,8 +8,7 @@ class DetailsPage extends Component  {
 render(){
  return (
    <div className="detail-main">
-     <FilterComponent/>
-     <BaseRouter/>
+      <BaseRouter/>
    </div>
  )}
 }
